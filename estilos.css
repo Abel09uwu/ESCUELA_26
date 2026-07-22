@@ -1,0 +1,181 @@
+body {
+    background-color: #E0F7FA; 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+    padding-bottom: 100px; 
+    text-align: center;
+    color: #333; 
+}
+
+h1, h2, h3 {
+    color: #0288D1; 
+    margin-bottom: 20px;
+}
+
+header.encabezado-superior {
+    background-color: #00796B; 
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 5px solid #4CAF50; 
+    box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo-header {
+    height: 80px;        
+    width: auto;        
+    object-fit: contain; 
+    background-color: #fff; 
+    border-radius: 15px; 
+    padding: 5px;     
+}
+
+.texto-header {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.texto-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.texto-header p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #B2DFDB; 
+}
+
+.caja-central {
+    background-color: #ffffff;
+    width: 500px; 
+    margin: 40px auto; 
+    padding: 30px;
+    border: 3px dashed #0288D1; 
+    border-radius: 25px; 
+    box-shadow: 0 10px 25px rgba(2, 136, 209, 0.2);
+}
+
+.boton-menu {
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #29B6F6; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50px; 
+    border: 2px solid white;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.boton-menu:hover {
+    transform: scale(1.05); 
+    background-color: #0288D1;
+}
+
+.boton-peligro {
+    background-color: #D32F2F !important;
+}
+
+input[type="text"], 
+input[type="password"], 
+select {
+    padding: 12px;
+    width: 85%;
+    margin: 10px 0;
+    border: 2px solid #81C784; 
+    border-radius: 15px;
+    background-color: #F1F8E9; 
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus {
+    border-color: #4CAF50; 
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #388E3C; 
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+th {
+    background-color: #0288D1; 
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #E0F7FA;
+    color: #555;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover {
+    background-color: #E1F5FE; 
+}
+
+footer.pie-pagina {
+    background-color: #00796B;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #4CAF50; 
+    z-index: 100;
+}
+
+footer.pie-pagina p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
